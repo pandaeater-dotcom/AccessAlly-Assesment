@@ -58,3 +58,11 @@ def runTime(mins, hours=12, minutes=0, count=0):
 
 print('Total number of arithmetic sequences in given time: ', runTime(totalMins))
 # print(runTime(totalMins) == int(f_result.readline()))
+
+
+'''
+This algorithm operates at O(1) time complexity. It takes one integer and regardless of value, the loop executes a maximum of 720 times (total mins in 12 hrs)
+From the input, the number of full cycles and the remainder are calculated
+The number of a arithmetic sequences in a full cycle are counted. And simultaneously, the arithmetic sequences till the remainder is also kept track of. 
+The full cycle count is multiplied by the number of cycles and added to the remainder count, which gives the final answer.
+'''
