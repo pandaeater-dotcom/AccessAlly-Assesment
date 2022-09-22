@@ -56,5 +56,5 @@ def runTime(mins, hours=12, minutes=0, count=0):
     return count
 
 
-print(runTime(totalMins))
+print('Total number of arithmetic sequences in given time: ', runTime(totalMins))
 # print(runTime(totalMins) == int(f_result.readline()))
