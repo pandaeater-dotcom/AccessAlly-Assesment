@@ -21,3 +21,7 @@ Enter blood supply list (single space between numbers): 5 5 3 1 2 11 5 12
 Enter patient list (single space between numbers): 2 4 9 2 3 9 7 3
 ```
 Alternatively, you can find a few lines of commented code at the top of the file, which reads text files. Simply uncomment and edit the file name
+
+Both solutions have been put through all the test cases.
+To resolve any queries or issues with input or otherwise, please contact me at **r24rames@uwaterloo.ca**
+Thank you for your consideration
