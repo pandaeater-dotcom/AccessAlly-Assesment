@@ -52,3 +52,13 @@ while x < len(bloodAvailable):
 
 print('Maximum number of patients that can receive blood is: ', total)
 # print(total == int(f_result.readline()))
+
+
+'''
+This algorithm operates at O(n) time complexity. It takes two sets of 8 integers as input for the blood available and patients. 
+First, corresponding blood types are matched and blood is donated, after which any excess Rh+ patients are given the respective Rh- blood from any surplus
+Then we consider the edge cases of AB- and AB+. First any excess AB- is given blood from surplus A- and B-
+Then excess AB+ is given blood from A-, B-, A+ and B+
+The second to last step is donating surplus O+ blood to any remaining Rh+ patients
+Finally, any surplus O- blood is donated to any remaining patients
+'''
